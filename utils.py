@@ -21,7 +21,7 @@ def format_timedelta(td: timedelta) -> str:
     elif m != 0 and s != 0:
         return f'{m}m {s}s'
     elif m != 0:
-        return f'{s}s'
+        return f'{m}m'
     else:
         return f'{s}s'
 
